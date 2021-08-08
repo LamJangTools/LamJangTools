@@ -39,7 +39,7 @@ def follow_us():
 
 def random_category():
 	list_caterory = ['history', 'subscribe', 'recommended', 'nft', 'blockchain', 'gaming', 'interesting', 'pets', 'music']
-	content = ramdom.choice(list_caterory)
+	content = random.choice(list_caterory)
 	return content
 
 def select_video(video_num, time_seen):
