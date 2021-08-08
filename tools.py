@@ -1,6 +1,6 @@
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
-import os, requests, ramdom
+import os, requests, random
 from time import sleep
 
 version = requests.get('https://lamjangtools.github.io/LamJangTools/version.txt').text
